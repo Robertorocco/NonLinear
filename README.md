@@ -28,11 +28,12 @@ The dynamics are governed by:
 
 \[
 \begin{aligned}
-\dot{x} &= \frac{1 + z^n}{\alpha} - x \;+\; \alpha\,u,\\
+\dot{x} &= \frac{1 + z^n}{\alpha} - x + \alpha\,u,\\
 \dot{y} &= x - y,\\
-\dot{z} &= y - z,
+\dot{z} &= y - z.
 \end{aligned}
 \]
+
 
 where:
 
