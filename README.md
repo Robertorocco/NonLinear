@@ -26,22 +26,22 @@ We focus on a three‑dimensional Goodwin oscillator model, which describes the 
 
 The dynamics are governed by:
 
-\[
+$$
 \begin{aligned}
 \dot{x} &= \frac{1 + z^n}{\alpha} - x + \alpha\,u,\\
 \dot{y} &= x - y,\\
 \dot{z} &= y - z.
 \end{aligned}
-\]
+$$
 
 
 where:
-
-- \(u\) is the external control input (representing light exposure).
-- \(\alpha\) is a system parameter.
-- \(n\) is the Hill coefficient, crucial for generating stable oscillations.
+- $u$ is the external control input (representing light exposure).
+- $\alpha$ is a system parameter.
+- $n$ is the Hill coefficient, crucial for generating stable oscillations.
 
 ---
+
 
 ## ⚙️ Control Strategies Implemented
 
